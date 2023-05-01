@@ -5,6 +5,6 @@ on: [push]
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
-    steps
+    steps:
       -name: Echo a String
        run: echo "Hello This is our first  Github Actions Workflow file"
